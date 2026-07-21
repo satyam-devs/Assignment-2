@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(235, 249, 249);
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.nav{
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nm{
+    display: flex;
+    gap: 10px;
+}
+button{
+    background-color: darkmagenta;
+    padding: 5px;
+}
+.main{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.main h1{
+    width: 90%;
+    font-size: 135px;
+    text-align: center;
+    margin-left: 35px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+li{
+    
+    padding: 11px 13px 11px 13px;
+    border-radius: 40%;
+    background-color: rgba(21, 21, 20);
+    color: aliceblue;
+
+}
+li:nth-child(1){
+    background-color: red;
+}
+.cont{
+  
+    height: 50%;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gun{
+    width: 26%;
+    height: 80%;
+    background-color: rgba(13, 13, 13);
+    border-radius: 10%;
+    
+}
+img{
+    background-size: contain;
+    height: 190px;
+    width: 100%;
+    border-radius: 20%;
+}
+.gun p{
+    text-align:start;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgba(84, 29, 9);
+    width: 18%;
+    padding: 8px 10px 8px 10px;
+    color: rgba(205, 115, 73);
+    border-radius: 10%;
+}
